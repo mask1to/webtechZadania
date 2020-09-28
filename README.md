@@ -1,6 +1,7 @@
+
 # Repozitár pre Webové Technológie
 
-**AIS ID**: 91982
+**AIS ID**: 91982  </br>
 **Meno & Priezvisko**: Samuel Adler
 
 **[Zadanie 1](https://github.com/mask1to/webtechZadania/tree/master/zadanie1)**
