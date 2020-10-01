@@ -1,29 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-* {
+*
+{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #24252A;
 }
 
-li, a, button {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  color: #edf0f1;
-  text-decoration: none;
+h1, h2, h3, h4, h5, h6{
+  font-weight: 700;
+  margin: 0 0 1em 0;
+  text-transform: uppercase;
+}
+
+
+h2{
+  font-size: 1.5em;
+  line-height: 1.5em;
+  padding-left: 7px;
 }
 
 header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 10%;
+  padding: 1px 10%;
+  border-radius: 25px;
+}
+
+ol, ul{
+  list-style-type: none;
+}
+
+ul{
+  padding-left: 1em;
+}
+    ul li {
+      padding-left: 0.5em;
+    }
+
+    ul.alt {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul.actions{
+      cursor: default;
+      list-style: none;
+      padding-left: 0;
+    }
+
+p{
+  margin: 0 0 1em 0;
+  padding: 10px;
+}
+
+li, a, button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #24252A;
+  text-decoration: none;
+}
+
+button{
+  padding: 9px 25px;
+  background-color: rgba(238, 248, 255, 0.6);
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover{
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+article{
+  display: block;
 }
 
 .logo{
   cursor: pointer;
+  width: 100px;
+  height: 100px;
 }
 
 .nav_links{
@@ -44,15 +104,139 @@ header{
   color: #0088a9
 }
 
-button{
-  padding: 9px 25px;
-  background-color: rgba(0, 136, 169, 1);
-  border: none;
-  border-radius: 15px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
+.image{
+  border-radius: 0;
+  border: 0;
+  display: inline-block;
+  position: relative;
 }
 
-button:hover{
-  background-color: rgba(0, 136, 169, 0.8);
+.feature
+{
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  margin-bottom: 6em;
+}
+    /*.feature:last-child
+    {
+      margin-bottom: 2em;
+    }*/
+
+    .feature.left
+    {
+      -moz-flex-direction: row-reverse;
+      -webkit-flex-direction: row-reverse;
+      -ms-flex-direction: row-reverse;
+      flex-direction: row-reverse;
+    }
+
+    .feature.right
+    {
+      -moz-flex-direction: row;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row;
+    }
+
+    .feature .image
+    {
+      width: 48%;
+    }
+        .feature .image img
+        {
+          max-width: 100%;
+        }
+
+    .feature .content
+    {
+      padding: 2em 3em 0.1em 3em;
+      width: 52%;
+    }
+
+.feature
+{
+  background-color: rgba(144, 144, 144, 0.075);
+}
+
+.wrapper
+{
+  padding: 8em 0 6em 0;
+  position: relative;
+}
+  .wrapper > .inner{
+    margin: 0 auto;
+    width: 70em;
+  }
+
+  .wrapper.myStyle{
+    background-color: #edf0f1;
+    color: #777;
+  }
+      .wrapper.myStyle h1, .wrapper.myStyle h2, .wrapper.myStyle h3,
+      .wrapper.myStyle h4, .wrapper.myStyle h5, .wrapper.myStyle h6{
+        color: #555;
+      }
+
+
+      .wrapper.myStyle .feature{
+        background-color: #fff
+      }
+
+.button{
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  border-radius: 2.5em;
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  height: 2.85em;
+  line-height: 2.95em;
+  min-width: 10em;
+  padding: 0 1.5em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+  .button.alt{
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px #51BAA4;
+    color: #51BAA4;
+  }
+
+  .button.alt:hover{
+    background: #434343;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+  }
+
+.site-footer {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #24252A;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+.footer-nav p {
+  text-align: center;
 }
