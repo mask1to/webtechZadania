@@ -5,7 +5,7 @@
       <paths name="webtech">
         <serverdata>
           <mappings>
-            <mapping deploy="/zadanie1" local="$PROJECT_DIR$" web="/zadanie1" />
+            <mapping deploy="assignments/zadanie1" local="$PROJECT_DIR$" web="assignments/zadanie1" />
           </mappings>
         </serverdata>
       </paths>

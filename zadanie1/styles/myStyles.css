@@ -7,20 +7,23 @@
   padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6
+{
   font-weight: 700;
   margin: 0 0 1em 0;
   text-transform: uppercase;
 }
 
 
-h2{
+h2
+{
   font-size: 1.5em;
   line-height: 1.5em;
   padding-left: 7px;
 }
 
-header{
+header
+{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,34 +31,36 @@ header{
   border-radius: 25px;
 }
 
-ol, ul{
+ol, ul
+{
   list-style-type: none;
 }
 
-ul{
+ul
+{
   padding-left: 1em;
 }
-    ul li {
+    ul li
+    {
       padding-left: 0.5em;
     }
 
-    ul.alt {
-      list-style: none;
-      padding-left: 0;
-    }
-
-    ul.actions{
+    /* dokoncenie dostylovania contentu a zarovnanie "Zistit viac" */
+    ul.actions
+    {
       cursor: default;
       list-style: none;
       padding-left: 0;
     }
 
-p{
+p
+{
   margin: 0 0 1em 0;
   padding: 10px;
 }
 
-li, a, button {
+li, a, button
+{
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -63,48 +68,47 @@ li, a, button {
   text-decoration: none;
 }
 
-button{
-  padding: 9px 25px;
-  background-color: rgba(238, 248, 255, 0.6);
-  border: none;
-  border-radius: 15px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-}
-
-button:hover{
-  background-color: rgba(0, 136, 169, 0.8);
-}
-
-article{
+article
+{
   display: block;
 }
 
-.logo{
+.logo
+{
   cursor: pointer;
   width: 100px;
   height: 100px;
 }
 
-.nav_links{
+.nav_links
+{
   list-style: none;
 }
 
-.nav_links li{
+.nav_links li
+{
   display: inline-block;
   text-align: center;
   padding: 0 20px;
 }
 
-.nav_links li a{
+.nav_links li a
+{
   transition: all 0.3s ease 0s;
 }
 
-.nav_links li a:hover{
-  color: #0088a9
+.nav_links li a:hover
+{
+  color: #0088a9;
 }
 
-.image{
+.cnt:hover
+{
+  color: #0088a9;
+}
+
+.image
+{
   border-radius: 0;
   border: 0;
   display: inline-block;
@@ -123,11 +127,6 @@ article{
   align-items: center;
   margin-bottom: 6em;
 }
-    /*.feature:last-child
-    {
-      margin-bottom: 2em;
-    }*/
-
     .feature.left
     {
       -moz-flex-direction: row-reverse;
@@ -169,26 +168,31 @@ article{
   padding: 8em 0 6em 0;
   position: relative;
 }
-  .wrapper > .inner{
+  .wrapper > .inner
+  {
     margin: 0 auto;
     width: 70em;
   }
 
-  .wrapper.myStyle{
+  .wrapper.myStyle
+  {
     background-color: #edf0f1;
     color: #777;
   }
       .wrapper.myStyle h1, .wrapper.myStyle h2, .wrapper.myStyle h3,
-      .wrapper.myStyle h4, .wrapper.myStyle h5, .wrapper.myStyle h6{
+      .wrapper.myStyle h4, .wrapper.myStyle h5, .wrapper.myStyle h6
+      {
         color: #555;
       }
 
 
-      .wrapper.myStyle .feature{
+      .wrapper.myStyle .feature
+      {
         background-color: #fff
       }
 
-.button{
+.button
+{
   -moz-appearance: none;
   -webkit-appearance: none;
   -ms-appearance: none;
@@ -212,13 +216,15 @@ article{
   white-space: nowrap;
 }
 
-  .button.alt{
+  .button.alt
+  {
     background-color: transparent;
     box-shadow: inset 0 0 0 2px #51BAA4;
     color: #51BAA4;
   }
 
-  .button.alt:hover{
+  .button.alt:hover
+  {
     background: #434343;
     letter-spacing: 1px;
     -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
@@ -226,7 +232,8 @@ article{
     transition: all 0.4s ease 0s;
   }
 
-.site-footer {
+.site-footer
+{
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -237,6 +244,7 @@ article{
   padding: 10px 0;
 }
 
-.footer-nav p {
+.footer-nav p
+{
   text-align: center;
 }
