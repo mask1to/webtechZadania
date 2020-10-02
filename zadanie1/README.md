@@ -17,6 +17,7 @@
 - logo
 - footer & header 
 
-**02/10/2020 v1**
-- homepage, aboutme completed
+**02/10/2020**
+- homepage, aboutme, schedule completed
 - new style for aboutme
+
