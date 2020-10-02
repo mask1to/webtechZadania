@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.topDiv
+{
+    margin: 4% 10% 7%;
+    height: 100%;
+}
+
+.topDiv p
+{
+    font-family: "Montserrat", sans-serif;
+    text-align: left;
+}
+
+.textHead
+{
+    text-align: left;
+    font-weight: bold;
+}
+
+img
+{
+    border-radius: 4px;
+    margin-right: 2%;
+    float: left;
+}
+
+aside
+{
+    font-style: italic;
+    font-size: 20px;
+}
+
+.linked:hover{
+    background-color: #51BAA4;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.quote{
+    border: 1px solid black;
+}
+
+
+
+
+

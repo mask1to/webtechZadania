@@ -20,4 +20,3 @@
 **02/10/2020**
 - homepage, aboutme, schedule completed
 - new style for aboutme
-
