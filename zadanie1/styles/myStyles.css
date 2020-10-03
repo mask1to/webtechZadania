@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
 *
 {
@@ -14,7 +14,6 @@ h1, h2, h3, h4, h5, h6
   text-transform: uppercase;
 }
 
-
 h2
 {
   font-size: 1.5em;
@@ -29,6 +28,7 @@ header
   align-items: center;
   padding: 1px 10%;
   border-radius: 25px;
+  background-color: #ffffff;
 }
 
 ol, ul
@@ -114,43 +114,26 @@ article
   display: inline-block;
   position: relative;
 }
+  .image img{
+    display: block;
+    border-radius: 0;
+  }
 
 .feature
 {
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: -ms-flex;
   display: flex;
-  -moz-align-items: center;
-  -webkit-align-items: center;
-  -ms-align-items: center;
   align-items: center;
   margin-bottom: 6em;
 }
     .feature.left
     {
-      -moz-flex-direction: row-reverse;
-      -webkit-flex-direction: row-reverse;
-      -ms-flex-direction: row-reverse;
       flex-direction: row-reverse;
     }
 
     .feature.right
     {
-      -moz-flex-direction: row;
-      -webkit-flex-direction: row;
-      -ms-flex-direction: row;
       flex-direction: row;
     }
-
-    .feature .image
-    {
-      width: 48%;
-    }
-        .feature .image img
-        {
-          max-width: 100%;
-        }
 
     .feature .content
     {
@@ -193,13 +176,6 @@ article
 
 .button
 {
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  -ms-appearance: none;
-  appearance: none;
-  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   border-radius: 2.5em;
   border: 0;
@@ -227,8 +203,6 @@ article
   {
     background: #434343;
     letter-spacing: 1px;
-    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
     transition: all 0.4s ease 0s;
   }
 
@@ -238,6 +212,7 @@ article
   font-weight: 500;
   font-size: 14px;
   color: #24252A;
+  background-color: #ffffff;
   text-decoration: none;
   text-align: center;
   margin: 10px 0;

@@ -20,3 +20,10 @@
 **02/10/2020**
 - homepage, aboutme, schedule completed
 - new style for aboutme
+
+**03/10/2020**
+- cv page completed
+- files validated
+
+
+**END OF ASSIGNMENT 1**

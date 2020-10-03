@@ -6,6 +6,10 @@
     height: 100%;
 }
 
+.topDiv, body{
+    background-color: #edf0f1;
+}
+
 .topDiv p
 {
     font-family: "Montserrat", sans-serif;
@@ -20,7 +24,6 @@
 
 img
 {
-    border-radius: 4px;
     margin-right: 2%;
     float: left;
 }
@@ -40,8 +43,3 @@ aside
 .quote{
     border: 1px solid black;
 }
-
-
-
-
-
