@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+html,body
+{
+    height: auto;
+    font-size: 100%;
+    min-height: 100%;
+}
+
+body
+{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: black;
+    margin: 0;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15px;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+.mainPic img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.mainOne
+{
+    position: relative;
+}
+
+.circle{
+    cursor: pointer;
+    position: absolute;
+    width: 2.8%;
+    height: 2.8%;
+    background: url("pics/plus.png") no-repeat center;
+    background-size: contain;
+}
+
+.source{
+    cursor: pointer;
+    position: absolute;
+    width: 3%;
+    height: 3%;
+    left: 3%;
+    top: 5%;
+    background: url("pics/information.png") no-repeat center;
+    background-size: contain;
+}
+
+.contentSrc{
+    background: rgba(0,0,0,0.8);
+    position: absolute;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    z-index: 10;
+    display: none;
+}
+
+.source:hover .contentSrc1{
+    left: 6%;
+    top: 5%;
+    display: block;
+    margin-left: 37px;
+}
+
+.info{
+    cursor: pointer;
+    position: absolute;
+    width: 3%;
+    height: 3%;
+    background: url("pics/information.png") no-repeat center;
+    background-size: contain;
+}
+
+.infoMain{
+    left: 44%;
+    top: 5%
+}
+
+.infoMain:hover + .content0{
+    left: 47%;
+    top: 5%;
+    display: block;
+}
+
+.content{
+    background: rgba(0,0,0,0.8);
+    position: absolute;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    z-index: 10;
+    display: none;
+}
+
+.content img{
+    max-width: 100%;
+    height: 10vw;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0.5rem;
+    display: block;
+}
+
+p{
+    margin: 0;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.characterName{
+    font-size: 1rem;
+    font-weight: bold;
+    color: limegreen;
+    text-align: center;
+}
+
+.infList li {
+    color: #fff;
+}
+
+.infList li span
+{
+    font-weight: bold;
+    color: limegreen;
+}
+
+/*
+   Styled "Pop-Ups"
+ */
+
+.firstCircle{
+    left: 20%;
+    top: 50%;
+}
+
+.secondCircle{
+    left: 30%;
+    top: 48%
+}
+
+.thirdCircle{
+    left: 6.3%;
+    top: 60%;
+}
+
+.fourthCircle{
+    left: 35%;
+    top: 28.5%;
+}
+
+.fifthCircle{
+    left: 44%;
+    top: 57%;
+}
+
+.sixthCircle{
+    left: 55%;
+    top: 55%;
+}
+
+.seventhCircle{
+    left: 59%;
+    top: 40%;
+}
+
+.eighthCircle{
+    left: 67%;
+    top: 18%;
+}
+
+.ninthCircle{
+    left: 73.5%;
+    top: 35%;
+}
+
+.tenthCircle{
+    left: 84%;
+    top: 13.5%;
+}
+
+.eleventhCircle{
+    left: 91%;
+    top: 18%;
+}
+
+.firstCircle:hover + .content1{
+    left: 22.8%;
+    bottom: 35%;
+    display: block;
+}
+
+.secondCircle:hover + .content2{
+    left: 33%;
+    bottom: 40%;
+    display: block;
+}
+
+.thirdCircle:hover + .content3{
+    left: 9%;
+    bottom: 35%;
+    display: block;
+}
+
+.fourthCircle:hover + .content4{
+    right: 64.9%;
+    top: 15%;
+    display: block;
+}
+
+.fifthCircle:hover + .content5{
+    left: 47%;
+    bottom: 30%;
+    display: block;
+}
+
+.sixthCircle:hover + .content6{
+    right: 45%;
+    bottom: 28%;
+    display: block;
+}
+
+.seventhCircle:hover + .content7{
+    left: 61.5%;
+    bottom: 35%;
+    display: block;
+}
+
+.eighthCircle:hover + .content8{
+    right: 32.7%;
+    bottom: 55%;
+    display: block;
+}
+
+.ninthCircle:hover + .content9{
+    left: 76%;
+    bottom: 32%;
+    display: block;
+}
+
+.tenthCircle:hover + .content10{
+    right: 15.5%;
+    bottom: 55%;
+    display: block;
+}
+
+.eleventhCircle:hover + .content11{
+    right: 9%;
+    bottom: 60%;
+    display: block;
+}
