@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+header
+{
+    font-weight: bold;
+    margin-top: 1%;
+}
+
+.navBar
+{
+    position: relative;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    background-color: #edf0f1;
+}
+
+body
+{
+    font-family: "Montserrat", sans-serif;
+    color: #666666;
+    font-weight: 500;
+}
+
+h2
+{
+    text-align: center;
+}
+
+.default-input
+{
+    flex: 0 0 50%;
+    max-width: 315px;
+    width: 100%;
+}
+
+.form-group>input,p
+{
+    margin: 5px;
+    padding: 5px;
+}
+
+
+.form-group>label
+{
+    margin: 3px;
+    padding: 3px;
+    font-weight: bolder;
+}
+
+.input
+{
+    display: revert;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.message
+{
+    color: red;
+    margin: 0.1rem 0;
+    display: none
+}
+
+.myModalPopUp
+{
+    position: fixed;
+    display: none;
+    width:100%;
+    height: 100%;
+    top:0;
+    left:0;
+    align-items: center;
+    justify-content: center;
+    z-index: 6;
+}
+
+#myModalContent
+{
+    position: fixed;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    padding: 20px;
+}
+
+#tabWrapper
+{
+    align-items: center;
+    justify-content: center;
+}
+
+#myTab
+{
+    table-layout: fixed;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    border: 10px double #1C6EA4;
+}
+
+#myTab td, th
+{
+    border: 10px double #1C6EA4;
+    width: 100px;
+}
+
+.modalHeading
+{
+    font-weight: bolder;
+}
+
+.bodyHeading
+{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.conv
+{
+    margin-top: 11%;
+    margin-bottom: 1%;
+    background-color: #edf0f1;
+}
+
+.container
+{
+    margin-top: 12%;
+}

@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+html, body
+{
+    font-size: 100%;
+    min-height: 100%;
+    height: auto;
+}
+
+body
+{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    background-image: url("https://storage.pixteller.com/designs/designs-images/2019-03-27/05/simple-background-backgrounds-passion-simple-1-5c9b95d09002a.png");
+}
+
+.mainMapDiv
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.googleMap
+{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+#map
+{
+    height: 500px;
+}
+
+.myForm
+{
+    display: flex;
+    align-items: center;
+}
+
+.myLabels
+{
+    margin-right: 15px;
+}
+
+#searchStop
+{
+    height: 30px;
+    margin-right: 15px;
+    padding: 0 5px;
+}
+
+.pDistance
+{
+    margin: 0;
+}
+
+.submitButton
+{
+    background-color:#44c767;
+    border-radius:28px;
+    border:1px solid #18ab29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:17px;
+    padding:16px 31px;
+    text-decoration:none;
+    text-shadow:0 1px 0 #2f6627;
+}
+.submitButton:hover
+{
+    background-color:#5cbf2a;
+}
+.submitButton:active
+{
+    position:relative;
+    top:1px;
+}
+
+footer{
+    padding: .75rem 1.25rem;
+    border-top: 1px solid rgba(0, 0, 0, .125);
+}
+
+.footer{
+   text-align: center;
+}
+

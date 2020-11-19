@@ -1,0 +1,85 @@
+<!-- Beginning of Doc -->
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <!-- Start of Head -->
+    <title>Zadanie 6 - Grafy</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Links -->
+    <link rel="icon" href="pics/favicon.ico">
+    <link rel="stylesheet" href="css/myStyles.css">
+
+    <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous">
+    </script>
+
+    <!-- Chart Library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@0.7.7"></script>
+
+    <!-- My Script -->
+    <script src="js/script.js"></script>
+    <!-- End of Head -->
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h2>Zadanie 6 - Grafy</h2>
+    </header>
+    <!-- Header -->
+
+    <!-- Main Body -->
+    <main>
+    <div class="container-checkbox">
+        <div class="form-check">
+            <input class="form-input" name="sin" type="checkbox" id="SinusBox" onclick="PlaySinus();" checked>
+            <label class="form-label" for="SinusBox">sin</label>
+        </div>
+
+        <div class="form-check">
+            <input class="form-input" name="cos" type="checkbox" id="CosinBox" onclick="PlayCosin();" checked>
+            <label class="form-label" for="CosinBox">cos</label>
+        </div>
+    </div>
+
+    <div id="container-result"></div>
+
+    <div class="container-graph">
+        <canvas id="the-graph"></canvas>
+    </div>
+
+    <div class="container-checkbox-v2">
+        <div class="form-check">
+            <input class="form-input" name="displayTheField" type="checkbox" id="displayBox" onclick="DisplayText();">
+            <label class="form-label" for="displayBox">Textová hodnota</label>
+        </div>
+
+        <div class="form-check">
+            <input class="form-input" name="displayTheField" type="checkbox" id="displayBox2" onclick="DisplayRangeSlide();">
+            <label class="form-label" for="displayBox2">Intervalový slider</label>
+        </div>
+    </div>
+
+    <text-value></text-value>
+    <slider-component></slider-component>
+
+        <div class="container-button">
+            <button class="btn btn-stop" onclick="StopProgress()">Zastaviť</button>
+        </div>
+    </main>
+    <!-- Main Body -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer">© 2020 Samuel Adler - Všetky práva vyhradené
+        </div>
+    </footer>
+    <!-- Footer -->
+</body>
+</html>
+<!-- End of Doc -->
