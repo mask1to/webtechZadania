@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.mainBody{
+    margin: 5% 9% 7%;
+    height: 100%;
+}
+
+.mainBody p{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.secondaryBody{
+    display: flex;
+    justify-content: space-around;
+}
+
+.secondaryBody:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.firstColumn{
+    background-color: #e7ebed;
+    margin-right: 9%;
+}
+
+.secondColumn{
+    background-color: #efefef;
+    flex: 30%;
+    text-align: center;
+}
+
+.cvHeading{
+    font-weight: bolder;
+    text-transform: initial;
+    margin-left: 4%;
+    margin-top: 0;
+}
+
+.cvSectionHeadingh3{
+    text-align: left;
+    text-transform: initial;
+    margin-left: 4%;
+}
+
+.smallcvHeading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.smallcvHeading:hover{
+    color: limegreen;
+}
+
+li{
+    font-family: "Montserrat", sans-serif;
+}
+
+img{
+    margin-right: 8%;
+    margin-bottom: 4%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 7px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.tryingDiv5{
+    width: 100px;
+    height: 60px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn2 {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-primary2 {
+    width: 90px;
+    margin: 1% auto 2%;
+}
+
+.btn-primary2 {
+    color: #fff;
+    background-color: #777777;
+    border-color: #777777;
+}
+
+.btn-primary2:hover
+{
+    background: limegreen;
+    letter-spacing: 1px;
+    transition: all 0.4s ease 0s;
+}
+
+#mySocialSlideShow
+{
+    margin-top: 4%;
+}

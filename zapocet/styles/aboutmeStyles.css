@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.topDiv
+{
+    margin: 4% 10% 7%;
+    height: 100%;
+}
+
+.topDiv, body{
+    background-color: #edf0f1;
+}
+
+.topDiv p
+{
+    font-family: "Montserrat", sans-serif;
+    text-align: left;
+}
+
+.textHead
+{
+    text-align: left;
+    font-weight: bold;
+}
+
+
+
+aside
+{
+    font-style: italic;
+    font-size: 20px;
+}
+
+.linked:hover{
+    background-color: #51BAA4;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.quote{
+    border: 1px solid black;
+}
+
+img
+{
+    margin-right: 2%;
+    float: left;
+}
+
+.tryingDiv
+{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.tryingDiv2{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pictureSlide
+{
+    width: 100%;
+    height: auto;
+}
+
+.slide-text{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.titleFavorite
+{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: initial;
+    text-align: center;
+    margin-top: 2%;
+}
+
+
+#myFavoriteMusicShow
+{
+    margin-bottom: 6%;
+}
+
+

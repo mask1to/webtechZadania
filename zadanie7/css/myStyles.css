@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+html, body
+{
+    font-size: 100%;
+    min-height: 100%;
+    height: auto;
+}
+
+body
+{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    line-height: 1.5rem;
+    font-size: 15px;
+    max-width: 900px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    text-align: left;
+    background-image: url("https://images.hdqwalls.com/download/altered-carbon-fanart-3c-2560x1440.jpg");
+}
+
+.theHeader
+{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.cookies
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    color: chocolate;
+
+}
+
+.cookies > p
+{
+    padding: 1%;
+    margin-bottom: 1%;
+    margin-top: 0;
+    color: whitesmoke;
+    background-color: chocolate;
+}
+
+
+.cookiesBg
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 1, 1, 0.6);
+
+}
+
+.myBtn
+{
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ed3330;
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+}
+
+.myBtn:hover
+{
+    background: #434343;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px 10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+
+#searchBar
+{
+    margin-top: 3%;
+    text-align: center;
+    color: chocolate;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+    #searchBar > input
+    {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+.myForm
+{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495365;
+    background-color: lightyellow;
+    background-clip: padding-box;
+    border: 2px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+#bgDiv
+{
+    width:100%;
+    height: 100%;
+    position: fixed;
+    display: none;
+    top:0;
+    left:0;
+    z-index:5;
+}
+
+.mainDisplayDiv
+{
+    align-items: center;
+    justify-content: center;
+    top:0;
+    left:0;
+    position: fixed;
+    display: none;
+    width:100%;
+    height: 100%;
+    z-index: 6;
+}
+
+.pictureLayer
+{
+    position: fixed;
+    display:none;
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    max-width: 50%;
+    max-height: 100%;
+}
+
+.pictureTitle > h3
+{
+    color: saddlebrown;
+    margin-right: 80px;
+}
+
+.pictureDesc > p
+{
+    color: #495365;
+}
+
+.abandonDiv {
+    width: 32px;
+    height: 32px;
+    position: fixed;
+    left: 70%;
+    background-image: url("https://i.imgur.com/ljHKysc.png");
+    cursor: pointer;
+}
+
+
+.pictureClass > img
+{
+    width: 90%;
+    height: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+img{
+    vertical-align: middle;
+    border-style: none;
+}
+
+.previousPic
+{
+    left: 0;
+    border-radius: 2px 0 0 2px;
+}
+
+.nextPic
+{
+    right: 0;
+    border-radius: 2px 0 0 2px;
+}
+
+.previousPic, .nextPic {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.previousPic:hover
+{
+    background-color: brown;
+}
+
+.nextPic:hover{
+    background-color: brown;
+}
+
+.methodDiv
+{
+    left: 70%;
+    margin-left: -50px;
+    position: fixed;
+    margin-top: -15px;
+}
+
+.hovered
+{
+    cursor: pointer;
+}
+
+.methodDiv > a > img
+{
+    width: 35px;
+    height: 35px;
+}
+
+.fotka
+{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 0 0 4px 2px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+#gallery
+{
+    width: 1000px;
+    margin-left: -5%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    -webkit-box-shadow: -6px 5px 27px 25px rgba(96,158,54,1);
+    -moz-box-shadow: -6px 5px 27px 25px rgba(96,158,54,1);
+    box-shadow: -6px 5px 27px 25px rgba(96,158,54,1);
+}
+
+.source{
+    cursor: pointer;
+    position: absolute;
+    width: 4%;
+    height: 4%;
+    left: 3%;
+    top: 5%;
+    background: url("../pics/information.png") no-repeat center;
+    background-size: contain;
+}
+
+.contentSrc{
+    background: rgba(0,0,0,0.8);
+    position: absolute;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    z-index: 10;
+    display: none;
+}
+
+.source:hover .contentSrc1{
+    left: 6%;
+    top: 5%;
+    display: block;
+    margin-left: 37px;
+}
+
+.info{
+    cursor: pointer;
+    position: absolute;
+    width: 4%;
+    height: 4%;
+    background: url("../pics/information.png") no-repeat center;
+    background-size: contain;
+}
+
+.infoMain{
+    right: 3%;
+    top: 5%
+}
+
+.infoMain:hover + .content0{
+    right: 6%;
+    top: 5%;
+    display: block;
+}
+
+.content{
+    background: rgba(0,0,0,0.8);
+    position: absolute;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    z-index: 10;
+    display: none;
+}
+
+.content img{
+    max-width: 100%;
+    height: 10vw;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0.5rem;
+    display: block;
+}
+
+p{
+    margin: 0;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.characterName{
+    font-size: 1rem;
+    font-weight: bold;
+    color: limegreen;
+    text-align: center;
+}
+
+.infList li {
+    color: #fff;
+}
+
+.infList li span
+{
+    font-weight: bold;
+    color: limegreen;
+}
+
+footer
+{
+    padding: .75rem 1.25rem;
+    border-top: 1px solid rgba(0, 0, 0, .125);
+}
+
+.footer
+{
+    text-align: center;
+}

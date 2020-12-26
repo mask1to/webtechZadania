@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <!-- Start of Head -->
+    <title>Zadanie 7 - Galéria</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Links -->
+    <link rel="icon" href="pics/favicon.ico">
+    <link rel="stylesheet" href="css/myStyles.css">
+
+    <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous">
+    </script>
+
+    <!-- My Script -->
+    <script src="js/script.js"></script>
+    <!-- End of Head -->
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="theHeader">
+        Altered Carbon Galéria
+    </header>
+
+    <!-- Sources -->
+    <div class="source">
+        <div class="contentSrc contentSrc1">
+            <p class="characterName">Zdroje</p>
+            <ul class="infList">
+                <li><span>1.zdroj:</span> <a href="https://bit.ly/2Jcmazu" target="_blank"> Altered Carbon Fandome</a></li>
+                <li><span>2.zdroj:</span> <a href="https://bit.ly/34DCy2Z" target="_blank"> HD Wallpapers</a></li>
+                <li><span>3.zdroj:</span> Netflix(Screenshoty)</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Info Altered Carbon -->
+    <span class="info infoMain"></span>
+    <div class="content content0">
+        <p class="characterName">Altered Carbon - Požičovňa Mäsa</p>
+        <img src="https://64.media.tumblr.com/cf5831709349827479907312a3a4d595/tumblr_p3pd6fgzSa1qgojgxo4_540.gif" alt="Altered Carbon">
+        <ul class="infList">
+            <li><span>IMDB Hodnotenie:</span> <b>8.0</b> / 10</li>
+            <li><span>Žáner:</span> Sci-Fi, Dráma, Záhady</li>
+            <li><span>Počet sezón:</span> 2</li>
+            <li><span>Prvá epizóda:</span> 2.2.2018</li>
+            <li><span>Posledná epizóda:</span> 27.2.2020</li>
+        </ul>
+    </div>
+
+    <!-- Cookies -->
+    <div class="cookiesBg"></div>
+    <div class="cookies">
+        <p>Naša webová stránka používa súbory cookies pre zlepšenie
+           vašej skúsenosti na stránke a taktiež na analýzu vášho profilu.
+           <button class="myBtn" onclick="DisappearOnClick(true)">Ok, súhlasím</button>
+        </p>
+    </div>
+
+    <!-- Background -->
+    <div id="bgDiv"></div>
+
+    <!-- For pictures -->
+    <div class="mainDisplayDiv">
+        <!-- 1st picture -->
+        <div class="pictureLayer">
+            <div class="pictureTitle">
+                <div class="abandonDiv" onclick="DisplayLayer(true, 0)"></div>
+            </div>
+            <hr>
+            <div class="pictureClass" id="5">
+            </div>
+            <hr>
+            <div class="pictureDesc">
+            </div>
+            <a class="previousPic" onclick="addSlides(-1, false)">❮</a>
+            <a class="nextPic" onclick="addSlides(1, true)">❯</a>
+            <br>
+            <div class="methodDiv">
+                <a class="hovered" onclick="AutoStart()"><img src="pics/play.png" alt="play"></a>
+                <a class="hovered" onclick="StopAutoStart()"><img src="pics/stop.png" alt="stop"></a>
+            </div>
+        </div>
+
+        <!-- 2nd picture -->
+        <div class="pictureLayer">
+            <div class="pictureTitle">
+                <div class="abandonDiv" onclick="DisplayLayer(true, 0)"></div>
+            </div>
+            <div class="pictureClass" id="6">
+            </div>
+            <div class="pictureDesc">
+            </div>
+            <a class="previousPic" onclick="addSlides(-1, false)">❮</a>
+            <a class="nextPic" onclick="addSlides(1, true)">❯</a>
+            <br>
+            <div class="methodDiv">
+                <a class="hovered" onclick="AutoStart()"><img src="pics/play.png" alt="play"></a>
+                <a class="hovered" onclick="StopAutoStart()"><img src="pics/stop.png" alt="stop"></a>
+            </div>
+        </div>
+
+        <!-- 3rd picture -->
+        <div class="pictureLayer">
+            <div class="pictureTitle">
+                <div class="abandonDiv" onclick="DisplayLayer(true, 0)"></div>
+            </div>
+            <div class="pictureClass" id="7">
+            </div>
+            <div class="pictureDesc">
+            </div>
+            <a class="previousPic" onclick="addSlides(-1, false)">❮</a>
+            <a class="nextPic" onclick="addSlides(1, true)">❯</a>
+            <br>
+            <div class="methodDiv">
+                <a class="hovered" onclick="AutoStart()"><img src="pics/play.png" alt="play"></a>
+                <a class="hovered" onclick="StopAutoStart()"><img src="pics/stop.png" alt="stop"></a>
+            </div>
+        </div>
+
+        <!-- 4th picture -->
+        <div class="pictureLayer">
+            <div class="pictureTitle">
+                <div class="abandonDiv" onclick="DisplayLayer(true, 0)"></div>
+            </div>
+            <div class="pictureClass" id="8">
+            </div>
+            <div class="pictureDesc">
+            </div>
+            <a class="previousPic" onclick="addSlides(-1, false)">❮</a>
+            <a class="nextPic" onclick="addSlides(1, true)">❯</a>
+            <br>
+            <div class="methodDiv">
+                <a class="hovered" onclick="AutoStart()"><img src="pics/play.png" alt="play"></a>
+                <a class="hovered" onclick="StopAutoStart()"><img src="pics/stop.png" alt="stop"></a>
+            </div>
+        </div>
+
+        <!-- 5th picture -->
+        <div class="pictureLayer">
+            <div class="pictureTitle">
+                <div class="abandonDiv" onclick="DisplayLayer(true, 0)"></div>
+            </div>
+            <div class="pictureClass" id="9">
+            </div>
+            <div class="pictureDesc">
+            </div>
+            <a class="previousPic" onclick="addSlides(-1, false)">❮</a>
+            <a class="nextPic" onclick="addSlides(1, true)">❯</a>
+            <br>
+            <div class="methodDiv">
+                <a class="hovered" onclick="AutoStart()"><img src="pics/play.png" alt="play"></a>
+                <a class="hovered" onclick="StopAutoStart()"><img src="pics/stop.png" alt="stop"></a>
+            </div>
+        </div>
+
+        <!-- 6th picture -->
+        <div class="pictureLayer">
+            <div class="pictureTitle">
+                <div class="abandonDiv" onclick="DisplayLayer(true, 0)"></div>
+            </div>
+            <div class="pictureClass" id="10">
+            </div>
+            <div class="pictureDesc">
+            </div>
+            <a class="previousPic" onclick="addSlides(-1, false)">❮</a>
+            <a class="nextPic" onclick="addSlides(1, true)">❯</a>
+            <br>
+            <div class="methodDiv">
+                <a class="hovered" onclick="AutoStart()"><img src="pics/play.png" alt="play"></a>
+                <a class="hovered" onclick="StopAutoStart()"><img src="pics/stop.png" alt="stop"></a>
+            </div>
+        </div>
+
+        <!-- 7th picture -->
+        <div class="pictureLayer">
+            <div class="pictureTitle">
+                <div class="abandonDiv" onclick="DisplayLayer(true, 0)"></div>
+            </div>
+            <div class="pictureClass" id="11">
+            </div>
+            <div class="pictureDesc">
+            </div>
+            <a class="previousPic" onclick="addSlides(-1, false)">❮</a>
+            <a class="nextPic" onclick="addSlides(1, true)">❯</a>
+            <br>
+            <div class="methodDiv">
+                <a class="hovered" onclick="AutoStart()"><img src="pics/play.png" alt="play"></a>
+                <a class="hovered" onclick="StopAutoStart()"><img src="pics/stop.png" alt="stop"></a>
+            </div>
+        </div>
+
+        <!-- 8th picture -->
+        <div class="pictureLayer">
+            <div class="pictureTitle">
+                <div class="abandonDiv" onclick="DisplayLayer(true, 0)"></div>
+            </div>
+            <div class="pictureClass" id="12">
+            </div>
+            <div class="pictureDesc">
+            </div>
+            <a class="previousPic" onclick="addSlides(-1, false)">❮</a>
+            <a class="nextPic" onclick="addSlides(1, true)">❯</a>
+            <br>
+            <div class="methodDiv">
+                <a class="hovered" onclick="AutoStart()"><img src="pics/play.png" alt="play"></a>
+                <a class="hovered" onclick="StopAutoStart()"><img src="pics/stop.png" alt="stop"></a>
+            </div>
+        </div>
+
+        <!-- 9th picture -->
+        <div class="pictureLayer">
+            <div class="pictureTitle">
+                <div class="abandonDiv" onclick="DisplayLayer(true, 0)"></div>
+            </div>
+            <div class="pictureClass" id="13">
+            </div>
+            <div class="pictureDesc">
+            </div>
+            <a class="previousPic" onclick="addSlides(-1, false)">❮</a>
+            <a class="nextPic" onclick="addSlides(1, true)">❯</a>
+            <br>
+            <div class="methodDiv">
+                <a class="hovered" onclick="AutoStart()"><img src="pics/play.png" alt="play"></a>
+                <a class="hovered" onclick="StopAutoStart()"><img src="pics/stop.png" alt="stop"></a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Search Bar -->
+    <div id="searchBar">
+        <label for="search"></label>
+        <input type="text" class="myForm" name="search" id="search" placeholder="Zadajte slovo pre vyhľadanie obrázku">
+    </div>
+    <!-- Picture Gallery -->
+    <div id="gallery">
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer">© 2020 Samuel Adler - Všetky práva vyhradené
+        </div>
+    </footer>
+    <!-- Footer -->
+</body>
+</html>

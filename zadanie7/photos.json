@@ -1,0 +1,50 @@
+{
+  "photos":
+  [
+    {
+      "src": "fotka1.jpg",
+      "title": "Takeshi Kovacs",
+      "description": "Takeshi Lev Kovacs je protagonistom filmu Altered Carbon, ktorý sa odohráva v 26. storočí alebo okolo neho."
+    },
+    {
+      "src": "fotka2.jpg",
+      "title": "Quellcrist Falconer",
+      "description": "Quellcrist Falconer je vodcom organizácie známej ako vyslanci. Je tiež zodpovedná za zapálenie povstaleckého plameňa v rámci Protektorátu OSN, ako aj za navrhovanie a konečné zostavenie prvého kortikálneho zväzku."
+    },
+    {
+      "src": "fotka3.jpg",
+      "title": "Trepp",
+      "description": "Trepp bola expertná lovkyňa odmien známa svojou schopnosťou vypátrať kohokoľvek v Osadených svetoch za správnu cenu. V roku 2414 ju Horace Axley najal, aby k sebe priviedol Kovacsa na ochranu pred Quellcristom Falconerom."
+    },
+    {
+      "src": "fotka4.jpg",
+      "title": "Poe",
+      "description": "Poe bol majiteľom umelej inteligencie hotela The Raven Hotel. Bol vzorom podľa slávneho spisovateľa Edgara Allana Poea. V roku 2384 sa Takeshi Kovacs stal Poeovým prvým hosťom v jeho hoteli za päťdesiat rokov."
+    },
+    {
+      "src": "fotka5.jpg",
+      "title": "Dig 301",
+      "description": "Annabel Lee predtým známa ako Dig 301 je mimo práce A.I. naprogramovaný na pomoc ľudským archeológom. Dig nájde nový účel, keď stretne Poea."
+    },
+    {
+      "src": "fotka6.jpg",
+      "title": "Jaeger (Colonel Ivan Carrera)",
+      "description": "Jaeger je pretorián CTAC. Bol to on, kto našiel Takeshiho Kovacsa, ktorý ho považoval za svojho syna, vycvičil ho ako pretoriána CTAC, ale nakoniec Kovacs Jaegera zradil a pripojil sa k povstaniu. Viedol útočnú silu, ktorá nakoniec Kovacsa zatkla v roku 2134. Počas misie popravil Sarah a čin obvinil z Kovacsa."
+    },
+    {
+      "src": "fotka7.jpg",
+      "title": "Governor Danica Harlan",
+      "description": "Danica Harlan je očarujúca a ambiciózna guvernérka planéty Harlan's World. Jej postava má podporu ľudí, ale znepokojuje politických aktérov, ktorí ju obklopujú."
+    },
+    {
+      "src": "fotka8.jpg",
+      "title": "Laurens Bancroft",
+      "description": "Laurens je mocná postava z politického prostredia z roku 2019. Žije už viac ako 380 rokov a je vynálezcom pervitínu. V roku 2384 je záhadne zavraždený."
+    },
+    {
+      "src": "fotka9.jpg",
+      "title": "Reileen Kawahara",
+      "description": "Reileen Kawahara bola sestrou Takeshiho Kovacsa. Relieen, o ktorej sa predpokladá, že zomrela v roku 2130, údajne prežila a stala sa jednou z najsilnejších pervitínov, aké kedy existovali. Neskôr ju zabil Takeshi Kovacs v snahe ukončiť svoju teroristickú vládu."
+    }
+  ]
+}
